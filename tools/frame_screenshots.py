@@ -5,8 +5,8 @@
   2. Run:  python3 tools/frame_screenshots.py        (needs Pillow:  pip install pillow)
   3. Framed images appear in assets/screens/ (transparent background, soft shadow) and the README picks them up.
 
-Tall images get a phone frame (a camera island for names starting with "web-iphone", a punch-hole camera otherwise);
-wide images get a browser-window frame. Optional: pass another source folder as the first argument."""
+Tall images get a phone frame (a camera island for names starting with "web-iphone", a punch-hole camera otherwise, a tablet
+frame for names starting with "web-ipad"); wide images get a browser-window frame. Optional: pass another source folder as the first argument."""
 import pathlib, sys
 from PIL import Image, ImageDraw, ImageFilter
 
@@ -28,25 +28,28 @@ def shadow(canvas, box, r):
     canvas.alpha_composite(sh.filter(ImageFilter.GaussianBlur(26 * K)))
 
 
-def phone(shot, island):
-    sw = 540 * K
+def phone(shot, island, tablet=False):
+    sw = min(540 if not tablet else 640, shot.width) * K
     shot = shot.convert("RGB").resize((sw, round(shot.height * sw / shot.width)), Image.LANCZOS)
-    bez, pad = 16 * K, 44 * K
+    bez, pad = (16 if not tablet else 22) * K, 44 * K
     w, h = shot.width + 2 * bez, shot.height + 2 * bez
     canvas = Image.new("RGBA", (w + 2 * pad, h + 2 * pad), (0, 0, 0, 0))
     box = (pad, pad, pad + w, pad + h)
-    r = 74 * K
+    r = (74 if not tablet else 44) * K
     shadow(canvas, box, r)
     d = ImageDraw.Draw(canvas)
     d.rounded_rectangle((box[0] - 3 * K, box[1] - 3 * K, box[2] + 3 * K, box[3] + 3 * K), radius=r + 3 * K, fill=(154, 163, 178))  # metal rim
     d.rounded_rectangle(box, radius=r, fill=(10, 10, 13))  # bezel
-    for y0, y1 in ((h * 0.20, h * 0.20 + 34 * K), (h * 0.20 + 46 * K, h * 0.20 + 80 * K)):  # volume keys
-        d.rounded_rectangle((box[0] - 7 * K, box[1] + y0, box[0] - 2 * K, box[1] + y1), radius=2 * K, fill=(107, 114, 128))
-    d.rounded_rectangle((box[2] + 2 * K, box[1] + h * 0.30, box[2] + 7 * K, box[1] + h * 0.30 + 60 * K), radius=2 * K, fill=(107, 114, 128))  # power
+    if not tablet:
+        for y0, y1 in ((h * 0.20, h * 0.20 + 34 * K), (h * 0.20 + 46 * K, h * 0.20 + 80 * K)):  # volume keys
+            d.rounded_rectangle((box[0] - 7 * K, box[1] + y0, box[0] - 2 * K, box[1] + y1), radius=2 * K, fill=(107, 114, 128))
+        d.rounded_rectangle((box[2] + 2 * K, box[1] + h * 0.30, box[2] + 7 * K, box[1] + h * 0.30 + 60 * K), radius=2 * K, fill=(107, 114, 128))  # power
     canvas.paste(shot, (pad + bez, pad + bez), mask(shot.size, r - bez))
     cx = canvas.width // 2
     top = pad + bez + 14 * K
-    if island:
+    if tablet:
+        d.ellipse((cx - 5 * K, pad + 8 * K, cx + 5 * K, pad + 18 * K), fill=(40, 42, 50))
+    elif island:
         d.rounded_rectangle((cx - 80 * K, top, cx + 80 * K, top + 44 * K), radius=22 * K, fill=(5, 5, 8))
     else:
         d.ellipse((cx - 10 * K, top + 4 * K, cx + 10 * K, top + 24 * K), fill=(5, 5, 8))
@@ -54,7 +57,7 @@ def phone(shot, island):
 
 
 def browser(shot):
-    sw = 1100 * K
+    sw = min(1100, shot.width) * K  # not enlarged: a small capture stays crisp
     shot = shot.convert("RGB").resize((sw, round(shot.height * sw / shot.width)), Image.LANCZOS)
     bar, pad, r = 44 * K, 44 * K, 22 * K
     w, h = shot.width, shot.height + bar
@@ -77,7 +80,7 @@ if not files:
     sys.exit(f"No screenshots in {SRC}")
 for f in files:
     im = Image.open(f)
-    out = browser(im) if im.width > im.height else phone(im, f.stem.startswith("web-iphone"))
+    out = browser(im) if im.width > im.height else phone(im, f.stem.startswith("web-iphone"), tablet=f.stem.startswith("web-ipad"))
     out = out.resize((out.width // K, out.height // K), Image.LANCZOS)
     out.save(OUT / f"{f.stem}.png", optimize=True)
     print(f"{f.name} -> assets/screens/{f.stem}.png")

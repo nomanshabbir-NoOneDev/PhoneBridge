@@ -143,40 +143,49 @@ time, and a second one must **Take over** on purpose.
 
 ## 📸 See it
 
-> 🖼️ The pictures below are placeholders until real screenshots are added.
+<details open>
+<summary><b>On iPhone: the web companion</b></summary>
 
+<br>
+
+<div align="center">
+<img src="assets/screens/web-iphone.png" alt="Dialer and recents on iPhone" width="23%">
+<img src="assets/screens/web-iphone-call.png" alt="Incoming call on iPhone" width="23%">
+<img src="assets/screens/web-iphone-messages.png" alt="Messages on iPhone" width="23%">
+<img src="assets/screens/take-over.png" alt="Take over screen" width="23%">
+</div>
+
+<div align="center"><sub>Dialer and recents · Incoming call · Messages · Take over when someone else is using it</sub></div>
+
+</details>
+
+<details open>
+<summary><b>On iPad and on a computer</b></summary>
+
+<br>
+
+<div align="center">
+<img src="assets/screens/web-ipad.png" alt="Web companion on iPad" width="34%">
+<img src="assets/screens/web-laptop.png" alt="Web companion in a computer browser" width="62%">
+</div>
+
+<div align="center"><sub>iPad · Any computer's browser</sub></div>
+
+</details>
+
+<!-- Android screenshots (add when real ones are in assets/screens/):
 <details open>
 <summary><b>Android donor and companion</b></summary>
-
 <br>
-
 <div align="center">
-<img src="assets/screens/donor-bridge.png" alt="Donor bridge" width="23%">
-<img src="assets/screens/companion-dialer.png" alt="Companion dialer" width="23%">
-<img src="assets/screens/incoming-call.png" alt="Incoming call" width="23%">
-<img src="assets/screens/messages.png" alt="Messages" width="23%">
+<img src="assets/screens/donor-bridge.png" alt="Donor bridge" width="19%">
+<img src="assets/screens/qr-setup.png" alt="QR code on the donor" width="19%">
+<img src="assets/screens/companion-dialer.png" alt="Companion dialer" width="19%">
+<img src="assets/screens/incoming-call.png" alt="Incoming call" width="19%">
+<img src="assets/screens/messages.png" alt="Messages" width="19%">
 </div>
-
-<div align="center"><sub>Donor bridge · Dialer · Incoming call · Messages</sub></div>
-
 </details>
-
-<details open>
-<summary><b>iPhone and computer (web companion)</b></summary>
-
-<br>
-
-<div align="center">
-<img src="assets/screens/web-iphone.png" alt="Web companion on iPhone" width="23%">
-<img src="assets/screens/qr-setup.png" alt="QR code on the donor" width="23%">
-<img src="assets/screens/take-over.png" alt="Take over screen" width="23%">
-<br><br>
-<img src="assets/screens/web-laptop.png" alt="Web companion on a laptop" width="80%">
-</div>
-
-<div align="center"><sub>On iPhone · Scan to open · Take over · On a laptop</sub></div>
-
-</details>
+-->
 
 ---
 
