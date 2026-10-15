@@ -4,7 +4,9 @@
       <stop offset="0" stop-color="#0b1020"/><stop offset="0.55" stop-color="#14245a"/><stop offset="1" stop-color="#1d4ed8"/>
     </linearGradient>
     <linearGradient id="phone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
-    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="beam" gradientUnits="userSpaceOnUse" x1="660" y1="0" x2="1100" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111c3a"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+    <linearGradient id="day" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef0f4"/><stop offset="1" stop-color="#b7bdc9"/></linearGradient>
     <radialGradient id="glow"><stop offset="0" stop-color="#60a5fa" stop-opacity=".55"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/></radialGradient>
     <clipPath id="round"><rect width="1200" height="470" rx="28"/></clipPath>
   </defs>
@@ -40,52 +42,75 @@
     </g>
     <!-- donor phone on top: holds the SIM -->
     <g transform="translate(840,22)"><g class="float">
-      <rect width="80" height="160" rx="16" fill="url(#phone)" stroke="#475569" stroke-width="3"/>
-      <rect x="7" y="13" width="66" height="134" rx="9" fill="#0b1020"/>
-      <g transform="translate(23,30) scale(.75)">
+      <rect x="-1.5" y="-1.5" width="83" height="163" rx="16.5" fill="#9aa3b2"/><rect width="80" height="160" rx="15" fill="#0a0a0d"/><rect x="-3" y="35" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="-3" y="51" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="80.5" y="48" width="2.5" height="18" rx="1" fill="#6b7280"/>
+      <rect x="4" y="4" width="72" height="152" rx="11" fill="url(#night)"/>
+      <circle cx="40" cy="11" r="2.6" fill="#05050a"/>
+      <g transform="translate(23,34) scale(.75)">
         <path d="M0 0H26L44 18V58H0Z" fill="#0f172a" stroke="#38bdf8" stroke-width="3.5" stroke-linejoin="round"/>
         <rect x="11" y="24" width="22" height="22" rx="4" fill="#38bdf8" opacity=".9"/>
         <path d="M11 35H33M22 24V46" stroke="#0b1020" stroke-width="2.5"/>
       </g>
-      <text x="40" y="104" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="10" fill="#e2e8f0">DONOR</text>
-      <text x="40" y="119" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8">holds the SIMs</text>
+      <text x="40" y="108" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="700" font-size="10" fill="#e2e8f0">DONOR</text>
+      <text x="40" y="122" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="8" fill="#94a3b8">holds the SIMs</text>
+      <rect x="28" y="150" width="24" height="2.5" rx="1.2" fill="#cbd5e1" opacity=".6"/>
     </g></g>
     <!-- beams from the donor down to each device -->
     <path class="line" d="M870 186 C 860 236, 722 206, 700 256"/>
-    <path class="line" d="M880 186 L 880 226" style="animation-delay:-.4s"/>
-    <path class="line" d="M890 186 C 900 246, 1050 256, 1060 330" style="animation-delay:-.8s"/>
+    <path class="line" d="M880 186 L 880 256" style="animation-delay:-.4s"/>
+    <path class="line" d="M890 186 C 900 236, 1040 206, 1060 240" style="animation-delay:-.8s"/>
     <!-- Android companion: rings -->
     <g transform="translate(660,260)"><g class="float">
       <circle class="wave" cx="40" cy="80" r="46"/><circle class="wave w2" cx="40" cy="80" r="46"/><circle class="wave w3" cx="40" cy="80" r="46"/>
-      <rect width="80" height="160" rx="16" fill="url(#phone)" stroke="#475569" stroke-width="3"/>
-      <rect x="7" y="13" width="66" height="134" rx="9" fill="#0b1020"/>
-      <circle cx="40" cy="62" r="18" fill="#22c55e"/>
-      <path d="M33 68c4 6 10 9 16 9l3-4-6-3-3 3c-3-1-6-4-7-7l3-3-3-6-4 3c0 3 0 7 1 8z" fill="#fff" class="tick"/>
-      <text x="40" y="104" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="10" fill="#e2e8f0">INCOMING…</text>
-      <text x="40" y="119" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#94a3b8">rings here</text>
+      <rect x="-1.5" y="-1.5" width="83" height="163" rx="16.5" fill="#9aa3b2"/><rect width="80" height="160" rx="15" fill="#0a0a0d"/><rect x="-3" y="35" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="-3" y="51" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="80.5" y="48" width="2.5" height="18" rx="1" fill="#6b7280"/>
+      <rect x="4" y="4" width="72" height="152" rx="11" fill="url(#night)"/>
+      <circle cx="40" cy="11" r="2.6" fill="#05050a"/>
+      <text x="40" y="26" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="7" fill="#94a3b8">9:30</text>
+      <circle cx="40" cy="56" r="15" fill="#334155"/><circle cx="40" cy="52" r="5" fill="#94a3b8"/><path d="M30 66c2-7 18-7 20 0z" fill="#94a3b8"/>
+      <text x="40" y="88" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="700" font-size="10" fill="#f1f5f9">Incoming call</text>
+      <text x="40" y="100" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="8" fill="#94a3b8">rings here</text>
+      <circle cx="22" cy="132" r="11" fill="#ef4444"/><circle cx="58" cy="132" r="11" fill="#22c55e" class="tick"/>
+      <path d="M53 133c3 4 7 6 11 6l2-3-4-2-2 2c-2-1-4-3-5-5l2-2-2-4-3 2c0 2 0 4 1 6z" fill="#fff"/>
+      <rect x="28" y="150" width="24" height="2.5" rx="1.2" fill="#cbd5e1" opacity=".6"/>
     </g></g>
-    <text x="700" y="448" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#93c5fd">ANDROID</text>
-    <!-- iPad -->
-    <g transform="translate(820,230)"><g class="float2">
-      <rect width="120" height="190" rx="14" fill="url(#phone)" stroke="#475569" stroke-width="3"/>
-      <rect x="8" y="10" width="104" height="170" rx="7" fill="#0b1020"/>
-      <rect x="18" y="26" width="64" height="20" rx="8" fill="#a78bfa" opacity=".9" class="tick"/>
-      <rect x="38" y="56" width="64" height="20" rx="8" fill="#334155"/>
-      <rect x="18" y="86" width="52" height="20" rx="8" fill="#a78bfa" opacity=".6"/>
-      <rect x="18" y="146" width="84" height="22" rx="11" fill="#1e293b" stroke="#475569"/>
-      <circle cx="60" cy="161" r="3" fill="#475569"/>
+    <text x="700" y="448" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#93c5fd">ANDROID</text>
+    <!-- iPhone: dialer -->
+    <g transform="translate(840,260)"><g class="float2">
+      <rect x="-1.5" y="-1.5" width="83" height="163" rx="17.5" fill="#9aa3b2"/><rect width="80" height="160" rx="16" fill="#0a0a0d"/><rect x="-3" y="35" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="-3" y="51" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="80.5" y="48" width="2.5" height="18" rx="1" fill="#6b7280"/>
+      <rect x="4" y="4" width="72" height="152" rx="12" fill="url(#day)"/>
+      <rect x="27" y="8" width="26" height="7" rx="3.5" fill="#05050a"/>
+      <text x="14" y="14" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="5.5" font-weight="600" fill="#64748b">9:30</text>
+      <text x="40" y="36" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="8.5" fill="#64748b">0300 123 4567</text>
+      <g fill="#e5e7eb" stroke="#cbd5e1" stroke-width=".8">
+        <circle cx="21" cy="54" r="8"/><circle cx="40" cy="54" r="8"/><circle cx="59" cy="54" r="8"/>
+        <circle cx="21" cy="75" r="8"/><circle cx="40" cy="75" r="8"/><circle cx="59" cy="75" r="8"/>
+        <circle cx="21" cy="96" r="8"/><circle cx="40" cy="96" r="8"/><circle cx="59" cy="96" r="8"/>
+        <circle cx="21" cy="117" r="8"/><circle cx="40" cy="117" r="8"/><circle cx="59" cy="117" r="8"/>
+      </g>
+      <g font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="9" fill="#64748b" text-anchor="middle">
+        <text x="21" y="57">1</text><text x="40" y="57">2</text><text x="59" y="57">3</text>
+        <text x="21" y="78">4</text><text x="40" y="78">5</text><text x="59" y="78">6</text>
+        <text x="21" y="99">7</text><text x="40" y="99">8</text><text x="59" y="99">9</text>
+        <text x="21" y="120">*</text><text x="40" y="120">0</text><text x="59" y="120">#</text>
+      </g>
+      <circle cx="40" cy="140" r="9" fill="#22a447"/>
+      <path d="M35 141c3 4 7 6 11 6l2-3-4-2-2 2c-2-1-4-3-5-5l2-2-2-4-3 2c0 2 0 4 1 6z" fill="#fff" transform="translate(-1,-7)"/>
+      <rect x="28" y="152.5" width="24" height="2" rx="1" fill="#94a3b8" opacity=".7"/>
     </g></g>
-    <text x="880" y="448" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#93c5fd">IPAD</text>
-    <!-- laptop -->
-    <g transform="translate(992,333) scale(.8)"><g class="float">
-      <rect x="10" y="0" width="150" height="96" rx="8" fill="url(#phone)" stroke="#475569" stroke-width="3"/>
-      <rect x="18" y="8" width="134" height="80" rx="4" fill="#0b1020"/>
-      <rect x="28" y="20" width="60" height="8" rx="4" fill="#38bdf8" opacity=".8"/>
-      <rect x="28" y="36" width="96" height="6" rx="3" fill="#334155"/>
-      <rect x="28" y="48" width="80" height="6" rx="3" fill="#334155"/>
-      <circle cx="128" cy="68" r="9" fill="#22c55e" class="tick"/>
-      <rect x="0" y="99" width="170" height="9" rx="4.5" fill="#334155"/>
+    <text x="880" y="448" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#93c5fd">IPHONE</text>
+    <!-- iPad: messages -->
+    <g transform="translate(994,244)"><g class="float">
+      <rect x="-1.5" y="-1.5" width="135" height="179" rx="15.5" fill="#9aa3b2"/><rect width="132" height="176" rx="14" fill="#0a0a0d"/><rect x="-3" y="39" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="-3" y="55" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="132.5" y="53" width="2.5" height="18" rx="1" fill="#6b7280"/>
+      <rect x="5" y="5" width="122" height="166" rx="10" fill="url(#day)"/>
+      <circle cx="66" cy="10.5" r="2" fill="#05050a"/>
+      <text x="14" y="18" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="5.5" font-weight="600" fill="#64748b">9:30</text>
+      <rect x="14" y="28" width="44" height="12" rx="6" fill="#c4b5fd" class="tick"/>
+      <rect x="64" y="46" width="54" height="12" rx="6" fill="#cbd5e1"/>
+      <rect x="14" y="64" width="38" height="12" rx="6" fill="#c4b5fd" opacity=".75"/>
+      <rect x="70" y="82" width="48" height="12" rx="6" fill="#cbd5e1"/>
+      <rect x="14" y="100" width="56" height="12" rx="6" fill="#c4b5fd" opacity=".55"/>
+      <rect x="14" y="146" width="104" height="14" rx="7" fill="#f1f5f9" stroke="#cbd5e1" stroke-width=".8"/>
+      <rect x="52" y="167" width="28" height="2" rx="1" fill="#94a3b8" opacity=".7"/>
     </g></g>
-    <text x="1060" y="448" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#93c5fd">LAPTOP</text>
+    <text x="1060" y="448" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#93c5fd">IPAD</text>
   </g>
 </svg>
