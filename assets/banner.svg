@@ -43,9 +43,9 @@
       <rect x="316" width="130" height="40" rx="20" fill="#ffffff" fill-opacity=".14"/><text x="381" y="26" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="16" fill="#fff">Browser</text>
     </g>
     <!-- the person calling your number, and the call reaching the donor -->
-    <path class="line carrier" d="M728 102 L 834 102"/>
-    <text x="781" y="88" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#fcd34d">calls your SIM</text>
-    <g transform="translate(640,22)"><g class="float2">
+    <path class="line carrier" d="M658 102 L 879 102"/>
+    <text x="768" y="88" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#fcd34d">calls your SIM</text>
+    <g transform="translate(570,22)"><g class="float2">
       <circle class="wave amber" cx="40" cy="80" r="46"/><circle class="wave amber w2" cx="40" cy="80" r="46"/>
       <rect x="-1.5" y="-1.5" width="83" height="163" rx="16.5" fill="#9aa3b2"/>
       <rect width="80" height="160" rx="15" fill="#0a0a0d"/>
@@ -59,7 +59,8 @@
       <circle cx="40" cy="132" r="11" fill="#ef4444"/><rect x="33" y="130.5" width="14" height="3" rx="1.5" fill="#fff"/>
       <rect x="28" y="150" width="24" height="2.5" rx="1.2" fill="#cbd5e1" opacity=".6"/>
     </g></g>
-    <text x="680" y="208" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#fcd34d">CALLER</text>
+    <text x="610" y="208" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#fcd34d">CALLER</text>
+    <g transform="translate(45,0)"> <!-- the donor and its companions move together as one group -->
     <!-- donor phone on top: holds the SIM -->
     <g transform="translate(840,22)"><g class="float">
       <rect x="-1.5" y="-1.5" width="83" height="163" rx="16.5" fill="#9aa3b2"/><rect width="80" height="160" rx="15" fill="#0a0a0d"/><rect x="-3" y="35" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="-3" y="51" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="80.5" y="48" width="2.5" height="18" rx="1" fill="#6b7280"/>
@@ -132,5 +133,6 @@
       <rect x="52" y="167" width="28" height="2" rx="1" fill="#94a3b8" opacity=".7"/>
     </g></g>
     <text x="1060" y="448" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#93c5fd">IPAD</text>
+    </g>
   </g>
 </svg>
