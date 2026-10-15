@@ -16,6 +16,8 @@
     .t3{font:600 18px system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;fill:#93c5fd;letter-spacing:3px}
     .line{fill:none;stroke:url(#beam);stroke-width:4;stroke-linecap:round;stroke-dasharray:2 16;animation:flow 1.2s linear infinite}
     .wave{fill:none;stroke:#38bdf8;stroke-width:3;transform-box:fill-box;transform-origin:center;animation:ping 2.4s ease-out infinite;opacity:0}
+    .carrier{stroke:#fbbf24;stroke-width:4}
+    .amber{stroke:#fbbf24}
     .w2{animation-delay:.8s}.w3{animation-delay:1.6s}
     .float{animation:bob 5s ease-in-out infinite}.float2{animation:bob 5s ease-in-out -2.5s infinite}
     .orb{animation:drift 14s ease-in-out infinite}
@@ -40,6 +42,24 @@
       <rect x="182" width="120" height="40" rx="20" fill="#ffffff" fill-opacity=".14"/><text x="242" y="26" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="16" fill="#fff">iPhone</text>
       <rect x="316" width="130" height="40" rx="20" fill="#ffffff" fill-opacity=".14"/><text x="381" y="26" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="16" fill="#fff">Browser</text>
     </g>
+    <!-- the person calling your number, and the call reaching the donor -->
+    <path class="line carrier" d="M728 102 L 834 102"/>
+    <text x="781" y="88" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" font-weight="600" fill="#fcd34d">calls your SIM</text>
+    <g transform="translate(640,22)"><g class="float2">
+      <circle class="wave amber" cx="40" cy="80" r="46"/><circle class="wave amber w2" cx="40" cy="80" r="46"/>
+      <rect x="-1.5" y="-1.5" width="83" height="163" rx="16.5" fill="#9aa3b2"/>
+      <rect width="80" height="160" rx="15" fill="#0a0a0d"/>
+      <rect x="-3" y="35" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="-3" y="51" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="80.5" y="48" width="2.5" height="18" rx="1" fill="#6b7280"/>
+      <rect x="4" y="4" width="72" height="152" rx="11" fill="url(#night)"/>
+      <circle cx="40" cy="11" r="2.6" fill="#05050a"/>
+      <text x="40" y="26" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="7" fill="#94a3b8">9:30</text>
+      <circle cx="40" cy="56" r="15" fill="#334155"/><circle cx="40" cy="52" r="5" fill="#94a3b8"/><path d="M30 66c2-7 18-7 20 0z" fill="#94a3b8"/>
+      <text x="40" y="88" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="700" font-size="10" fill="#f1f5f9">Calling…</text>
+      <text x="40" y="100" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="8" fill="#94a3b8">your number</text>
+      <circle cx="40" cy="132" r="11" fill="#ef4444"/><rect x="33" y="130.5" width="14" height="3" rx="1.5" fill="#fff"/>
+      <rect x="28" y="150" width="24" height="2.5" rx="1.2" fill="#cbd5e1" opacity=".6"/>
+    </g></g>
+    <text x="680" y="208" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="600" font-size="12" letter-spacing="2" fill="#fcd34d">CALLER</text>
     <!-- donor phone on top: holds the SIM -->
     <g transform="translate(840,22)"><g class="float">
       <rect x="-1.5" y="-1.5" width="83" height="163" rx="16.5" fill="#9aa3b2"/><rect width="80" height="160" rx="15" fill="#0a0a0d"/><rect x="-3" y="35" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="-3" y="51" width="2.5" height="12" rx="1" fill="#6b7280"/><rect x="80.5" y="48" width="2.5" height="18" rx="1" fill="#6b7280"/>
