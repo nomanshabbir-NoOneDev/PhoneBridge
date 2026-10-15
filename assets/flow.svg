@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Donor phone to companion over Wi-Fi, hotspot or Tailscale">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+  <style>
+    text{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+    .box{fill:#0f172a;stroke:#334155;stroke-width:2}
+    .h{font-weight:700;font-size:20px;fill:#f1f5f9}.s{font-size:14px;fill:#94a3b8}.c{font-size:13px;fill:#7dd3fc;font-weight:600}
+    .ln{stroke:url(#g);stroke-width:4;stroke-linecap:round;stroke-dasharray:2 14;animation:go 1.1s linear infinite}
+    .pk{fill:#38bdf8;animation:pulse 1.6s ease-in-out infinite}
+    @keyframes go{to{stroke-dashoffset:-32}}
+    @keyframes pulse{0%,100%{opacity:.2}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1000" height="250" rx="20" fill="#0b1020"/>
+  <rect class="box" x="40" y="60" width="240" height="130" rx="18"/>
+  <text class="h" x="160" y="108" text-anchor="middle">Donor phone</text>
+  <text class="s" x="160" y="134" text-anchor="middle">your SIM cards live here</text>
+  <text class="c" x="160" y="165" text-anchor="middle">calls · texts · USSD</text>
+  <line class="ln" x1="290" y1="125" x2="500" y2="125"/>
+  <circle class="pk" cx="395" cy="125" r="7"/>
+  <rect class="box" x="400" y="40" width="0" height="0"/>
+  <text class="c" x="395" y="100" text-anchor="middle">Wi-Fi</text>
+  <text class="c" x="395" y="160" text-anchor="middle">Hotspot · Tailscale</text>
+  <rect class="box" x="520" y="30" width="240" height="60" rx="14"/>
+  <text class="h" x="640" y="66" text-anchor="middle">Android companion</text>
+  <rect class="box" x="520" y="100" width="240" height="60" rx="14"/>
+  <text class="h" x="640" y="136" text-anchor="middle">iPhone / iPad</text>
+  <rect class="box" x="520" y="170" width="240" height="60" rx="14"/>
+  <text class="h" x="640" y="206" text-anchor="middle">Any computer browser</text>
+  <line class="ln" x1="500" y1="125" x2="515" y2="60" style="animation-delay:-.3s"/>
+  <line class="ln" x1="500" y1="125" x2="515" y2="130" style="animation-delay:-.6s"/>
+  <line class="ln" x1="500" y1="125" x2="515" y2="200" style="animation-delay:-.9s"/>
+  <text class="s" x="880" y="118" text-anchor="middle">Ring, answer,</text>
+  <text class="s" x="880" y="140" text-anchor="middle">talk and text</text>
+</svg>
