@@ -6,6 +6,7 @@
 
 <a href="https://wa.me/923017898347"><img alt="Get the app on WhatsApp" src="https://img.shields.io/badge/Get%20the%20app-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 <a href="https://t.me/PhoneBridge_updates"><img alt="Updates on Telegram" src="https://img.shields.io/badge/Updates-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://t.me/PhoneBridge_chat"><img alt="Chat on Telegram" src="https://img.shields.io/badge/Chat-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a href="#-see-it"><img alt="Screenshots" src="https://img.shields.io/badge/%F0%9F%93%B8%20Screenshots-7c3aed?style=for-the-badge"></a>
 <a href="#-get-started-in-5-minutes"><img alt="Get started" src="https://img.shields.io/badge/%F0%9F%9A%80%20Get%20started-059669?style=for-the-badge"></a>
 <a href="#-faq"><img alt="FAQ" src="https://img.shields.io/badge/%E2%9D%93%20FAQ-475569?style=for-the-badge"></a>
@@ -265,7 +266,7 @@ Yes, for a while. The donor keeps working on your local network until its licenc
 
 <br>
 
-Accounts are invitation-only. [Message us on WhatsApp](https://wa.me/923017898347) and say what you'd like to use PhoneBridge for.
+Accounts are invitation-only. [Message us on WhatsApp](https://wa.me/923017898347) or [email us](mailto:nomanshabbirofficial@gmail.com) and say what you'd like to use PhoneBridge for.
 
 </details>
 
@@ -285,9 +286,11 @@ No. This repository only hosts this page.
 ### 💬 Get the app, updates and help
 
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20301%207898347-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923017898347)
-[![Telegram updates](https://img.shields.io/badge/Telegram-@PhoneBridge__updates-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/PhoneBridge_updates)
+[![Telegram updates](https://img.shields.io/badge/Updates-@PhoneBridge__updates-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/PhoneBridge_updates)
+[![Telegram chat](https://img.shields.io/badge/Chat-@PhoneBridge__chat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/PhoneBridge_chat)
+[![Email](https://img.shields.io/badge/Email-nomanshabbirofficial@gmail.com-475569?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nomanshabbirofficial@gmail.com)
 
-The app is sent personally: message us on WhatsApp. New versions and news are posted in the Telegram channel.
+The app is sent personally: message us on WhatsApp or email. New versions and news are posted in the Telegram channel; questions and help in the Telegram chat.
 
 <sub>© 2026 Noman (NoOneDev). All rights reserved. This repository hosts documentation only; the source code is not published.</sub>
 
