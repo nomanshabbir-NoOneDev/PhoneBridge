@@ -4,15 +4,14 @@
 
 <br>
 
-<a href="../../releases/latest"><img alt="Download the latest APK" src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20the%20APK-2563eb?style=for-the-badge"></a>
+<a href="https://wa.me/923017898347"><img alt="Get the app on WhatsApp" src="https://img.shields.io/badge/Get%20the%20app-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://t.me/PhoneBridge_updates"><img alt="Updates on Telegram" src="https://img.shields.io/badge/Updates-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a href="#-see-it"><img alt="Screenshots" src="https://img.shields.io/badge/%F0%9F%93%B8%20Screenshots-7c3aed?style=for-the-badge"></a>
 <a href="#-get-started-in-5-minutes"><img alt="Get started" src="https://img.shields.io/badge/%F0%9F%9A%80%20Get%20started-059669?style=for-the-badge"></a>
 <a href="#-faq"><img alt="FAQ" src="https://img.shields.io/badge/%E2%9D%93%20FAQ-475569?style=for-the-badge"></a>
 
 <br><br>
 
-<img alt="Latest release" src="https://img.shields.io/github/v/release/nomanshabbir-NoOneDev/PhoneBridge?style=flat-square&color=2563eb&label=latest">
-<img alt="Downloads" src="https://img.shields.io/github/downloads/nomanshabbir-NoOneDev/PhoneBridge/total?style=flat-square&color=7c3aed">
 <img alt="Android 14 and newer" src="https://img.shields.io/badge/Android-14%2B-3ddc84?style=flat-square&logo=android&logoColor=white">
 <img alt="iPhone and iPad through the browser" src="https://img.shields.io/badge/iPhone%20%C2%B7%20iPad-via%20browser-000000?style=flat-square&logo=apple&logoColor=white">
 
@@ -191,7 +190,7 @@ time, and a second one must **Take over** on purpose.
 
 ## 🚀 Get started in 5 minutes
 
-1. **Download** the latest APK from the [**Releases**](../../releases/latest) page and install it on both Android phones (Android 14 or newer).
+1. **Get the app.** The APK is sent to you personally: [message us on WhatsApp](https://wa.me/923017898347). Then install it on both Android phones (Android 14 or newer).
 2. **Sign in** with your PhoneBridge account and pick the role: *Donor* on the phone with the SIMs, *Companion* on the other one.
 3. **On the donor**: follow the setup guide, then start the bridge.
 4. **On the companion**: add the donor in *Settings → Donors* (it's listed when both are on the same Wi-Fi), then press **Start**.
@@ -266,7 +265,7 @@ Yes, for a while. The donor keeps working on your local network until its licenc
 
 <br>
 
-Accounts are invitation-only. [Open an issue](../../issues/new) and say what you'd like to use PhoneBridge for.
+Accounts are invitation-only. [Message us on WhatsApp](https://wa.me/923017898347) and say what you'd like to use PhoneBridge for.
 
 </details>
 
@@ -275,7 +274,7 @@ Accounts are invitation-only. [Open an issue](../../issues/new) and say what you
 
 <br>
 
-No. This repository only hosts releases and this page.
+No. This repository only hosts this page.
 
 </details>
 
@@ -283,8 +282,13 @@ No. This repository only hosts releases and this page.
 
 <div align="center">
 
-### 📦 [**Get the latest release →**](../../releases/latest)
+### 💬 Get the app, updates and help
 
-<sub>© 2026 Noman (NoOneDev). All rights reserved. This repository hosts builds and documentation only; the source code is not published.</sub>
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20301%207898347-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923017898347)
+[![Telegram updates](https://img.shields.io/badge/Telegram-@PhoneBridge__updates-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/PhoneBridge_updates)
+
+The app is sent personally: message us on WhatsApp. New versions and news are posted in the Telegram channel.
+
+<sub>© 2026 Noman (NoOneDev). All rights reserved. This repository hosts documentation only; the source code is not published.</sub>
 
 </div>
