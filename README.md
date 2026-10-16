@@ -4,7 +4,7 @@
 
 <br>
 
-<a href="https://wa.me/923017898347"><img alt="Get the app on WhatsApp" src="https://img.shields.io/badge/Get%20the%20app-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://wa.me/PhoneBridgeApp"><img alt="Get the app on WhatsApp" src="https://img.shields.io/badge/Get%20the%20app-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 <a href="https://t.me/PhoneBridge_updates"><img alt="Updates on Telegram" src="https://img.shields.io/badge/Updates-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a href="https://t.me/PhoneBridge_chat"><img alt="Chat on Telegram" src="https://img.shields.io/badge/Chat-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a href="#-see-it"><img alt="Screenshots" src="https://img.shields.io/badge/%F0%9F%93%B8%20Screenshots-7c3aed?style=for-the-badge"></a>
@@ -191,7 +191,7 @@ time, and a second one must **Take over** on purpose.
 
 ## 🚀 Get started in 5 minutes
 
-1. **Get the app.** The APK is sent to you personally: [message us on WhatsApp](https://wa.me/923017898347). Then install it on both Android phones (Android 14 or newer).
+1. **Get the app.** The APK is sent to you personally: [message us on WhatsApp](https://wa.me/PhoneBridgeApp). Then install it on both Android phones (Android 14 or newer).
 2. **Sign in** with your PhoneBridge account and pick the role: *Donor* on the phone with the SIMs, *Companion* on the other one.
 3. **On the donor**: follow the setup guide, then start the bridge.
 4. **On the companion**: add the donor in *Settings → Donors* (it's listed when both are on the same Wi-Fi), then press **Start**.
@@ -266,7 +266,7 @@ Yes, for a while. The donor keeps working on your local network until its licenc
 
 <br>
 
-Accounts are invitation-only. [Message us on WhatsApp](https://wa.me/923017898347) or [email us](mailto:nomanshabbirofficial@gmail.com) and say what you'd like to use PhoneBridge for.
+Accounts are invitation-only. [Message us on WhatsApp](https://wa.me/PhoneBridgeApp) or [email us](mailto:nomanshabbir.official@gmail.com) and say what you'd like to use PhoneBridge for.
 
 </details>
 
@@ -285,10 +285,10 @@ No. This repository only hosts this page.
 
 ### 💬 Get the app, updates and help
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20301%207898347-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923017898347)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-@PhoneBridgeApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/PhoneBridgeApp)
 [![Telegram updates](https://img.shields.io/badge/Updates-@PhoneBridge__updates-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/PhoneBridge_updates)
 [![Telegram chat](https://img.shields.io/badge/Chat-@PhoneBridge__chat-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/PhoneBridge_chat)
-[![Email](https://img.shields.io/badge/Email-nomanshabbirofficial@gmail.com-475569?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nomanshabbirofficial@gmail.com)
+[![Email](https://img.shields.io/badge/Email-nomanshabbir.official@gmail.com-475569?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nomanshabbir.official@gmail.com)
 
 The app is sent personally: message us on WhatsApp or email. New versions and news are posted in the Telegram channel; questions and help in the Telegram chat.
 
